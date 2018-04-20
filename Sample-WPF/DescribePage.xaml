@@ -20,7 +20,7 @@
             <TextBlock Margin="5, 5, 0, 0">Please click either [Load Image] or paste in an image url and click [Describe]</TextBlock>
             <Button Click="LoadImageButton_Click" Margin="5, 5, 0, 0" Width="80" HorizontalAlignment="Left">Load Image</Button>
             <StackPanel Orientation="Horizontal" Margin="5, 5, 0, 0">
-                <TextBox x:Name="_urlTextBox" Width="361" Margin="0, 5, 0, 0">https://oxfordportal.blob.core.windows.net/vision/Analysis/2-1.jpg</TextBox>
+                <TextBox x:Name="_urlTextBox" Width="361" Margin="0, 5, 0, 0">http://ste.india.com/sites/default/files/2016/01/22/453182-sachin-amitabh-ipl-smile-7.jpg</TextBox>
                 <Button Click="SubmitUriButton_Click" Margin="5, 5, 0, 0">Describe</Button>
             </StackPanel>
         </StackPanel>
